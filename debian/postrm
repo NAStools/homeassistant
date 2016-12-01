@@ -1,0 +1,23 @@
+#!/bin/sh
+set -e
+
+case "$1" in
+    purge|remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+    if getent passwd nastools-homeassistant >/dev/null 2>&1; then
+      USER_ID=$(id -u nastools-homeassistant)
+      rn_nml -d user:$USER_ID
+    fi          
+    if getent group nastools-homeassistant >/dev/null 2>&1; then
+      GROUP_ID=$(getent group nastools-homeassistant | cut -d: -f3)
+      rn_nml -d group:$GROUP_ID
+    fi
+    ;;
+    *)
+        echo "postrm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0

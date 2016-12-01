@@ -1,0 +1,3 @@
+debian/readynas/logo.png /apps/nastools-homeassistant
+debian/readynas/config.xml /apps/nastools-homeassistant
+debian/readynas/fvapp-nastools-homeassistant.service /apps/nastools-homeassistant

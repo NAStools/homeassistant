@@ -1,0 +1,21 @@
+From: NAStools <dev@nas.tools>
+Date: Wed, 30 Nov 2016 15:30:38 -0800
+Subject: Remove anel_pwrctrl requirement
+
+---
+ requirements_all.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/requirements_all.txt b/requirements_all.txt
+index bc02bbf..5018aa7 100644
+--- a/requirements_all.txt
++++ b/requirements_all.txt
+@@ -205,7 +205,7 @@ https://github.com/kellerza/pyqwikswitch/archive/v0.4.zip#pyqwikswitch==0.4
+ https://github.com/laf/russound/archive/0.1.6.zip#russound==0.1.6
+ 
+ # homeassistant.components.switch.anel_pwrctrl
+-https://github.com/mweinelt/anel-pwrctrl/archive/ed26e8830e28a2bfa4260a9002db23ce3e7e63d7.zip#anel_pwrctrl==0.0.1
++# https://github.com/mweinelt/anel-pwrctrl/archive/ed26e8830e28a2bfa4260a9002db23ce3e7e63d7.zip#anel_pwrctrl==0.0.1
+ 
+ # homeassistant.components.ecobee
+ https://github.com/nkgilley/python-ecobee-api/archive/4856a704670c53afe1882178a89c209b5f98533d.zip#python-ecobee==0.0.6

@@ -1,0 +1,21 @@
+From: NAStools <dev@nas.tools>
+Date: Wed, 30 Nov 2016 15:30:12 -0800
+Subject: Fix nuimo requirement
+
+---
+ requirements_all.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/requirements_all.txt b/requirements_all.txt
+index ea45016..bc02bbf 100644
+--- a/requirements_all.txt
++++ b/requirements_all.txt
+@@ -10,7 +10,7 @@ aiohttp==1.0.5
+ async_timeout==1.0.0
+ 
+ # homeassistant.components.nuimo_controller
+---only-binary=all git+https://github.com/getSenic/nuimo-linux-python#nuimo==1.0.0
++git+https://github.com/getSenic/nuimo-linux-python#nuimo==1.0.0 --only-binary=all
+ 
+ # homeassistant.components.isy994
+ PyISY==1.0.7

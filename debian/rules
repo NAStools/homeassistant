@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+export DH_VERBOSE=1
+export DH_VIRTUALENV_INSTALL_ROOT=/apps/nastools-homeassistant
+export DH_VIRTUALENV_ARGUMENTS="--python=/usr/bin/python3"
+export DH_REQUIREMENTS_FILE="requirements_all.txt"
+
+%:
+	dh $@ --with python3 --with python-virtualenv --buildsystem=pybuild
+
+override_dh_virtualenv:
+	dh_virtualenv --python /usr/bin/python3 --install-suffix=homeassistant \
+		      --requirements requirements_all.txt

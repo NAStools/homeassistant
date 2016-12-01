@@ -1,0 +1,13 @@
+[Unit]
+Description=Home Assistant
+After=apache2.target
+
+[Service]
+Type=simple
+User=nastools-homeassistant
+Group=nastools-homeassistant
+ExecStart=/apps/nastools-homeassistant/homeassistant/bin/hass \
+          --config /apps/nastools-homeassistant/config
+
+[Install]
+WantedBy=multi-user.target

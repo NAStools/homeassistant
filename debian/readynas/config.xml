@@ -1,0 +1,14 @@
+<Application resource-id="nastools-homeassistant">
+  <Version></Version>
+  <MinFirmwareVer>6.6.0</MinFirmwareVer>
+  <Name>Home Assistant NT</Name>
+  <Author>NAStools</Author>
+  <RequireReboot>0</RequireReboot>
+  <LaunchURL>http://localhost:8123</LaunchURL>
+  <InfoURL>https://github.com/nastools/homeassistant</InfoURL>
+  <DebianPackage>nastools-homeassistant</DebianPackage>
+  <ServiceName>fvapp-nastools-homeassistant.service</ServiceName>
+  <Description lang="en-us">Home automation platform. Track and control all devices at home and automate control.</Description>
+  <ConfigURL/>
+  <ReservePort>8123</ReservePort>
+</Application>

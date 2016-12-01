@@ -1,0 +1,21 @@
+From: NAStools <dev@nas.tools>
+Date: Wed, 30 Nov 2016 17:12:47 -0800
+Subject: Remove alarmdotcom requirement
+
+---
+ requirements_all.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/requirements_all.txt b/requirements_all.txt
+index 5018aa7..2c93a6e 100644
+--- a/requirements_all.txt
++++ b/requirements_all.txt
+@@ -172,7 +172,7 @@ https://github.com/TheRealLink/pylgtv/archive/v0.1.2.zip#pylgtv==0.1.2
+ https://github.com/TheRealLink/pythinkingcleaner/archive/v0.0.2.zip#pythinkingcleaner==0.0.2
+ 
+ # homeassistant.components.alarm_control_panel.alarmdotcom
+-https://github.com/Xorso/pyalarmdotcom/archive/0.1.1.zip#pyalarmdotcom==0.1.1
++# https://github.com/Xorso/pyalarmdotcom/archive/0.1.1.zip#pyalarmdotcom==0.1.1
+ 
+ # homeassistant.components.media_player.braviatv
+ https://github.com/aparraga/braviarc/archive/0.3.6.zip#braviarc==0.3.6
