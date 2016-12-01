@@ -1,5 +1,5 @@
 <Application resource-id="nastools-homeassistant">
-  <Version></Version>
+  <Version>0.33.4-nt1</Version>
   <MinFirmwareVer>6.6.0</MinFirmwareVer>
   <Name>Home Assistant NT</Name>
   <Author>NAStools</Author>
