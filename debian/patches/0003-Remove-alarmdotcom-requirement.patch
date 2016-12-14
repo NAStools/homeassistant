@@ -7,10 +7,10 @@ Subject: Remove alarmdotcom requirement
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/requirements_all.txt b/requirements_all.txt
-index 5018aa7..2c93a6e 100644
+index 3ee2b5f..ec48a95 100644
 --- a/requirements_all.txt
 +++ b/requirements_all.txt
-@@ -172,7 +172,7 @@ https://github.com/TheRealLink/pylgtv/archive/v0.1.2.zip#pylgtv==0.1.2
+@@ -184,7 +184,7 @@ https://github.com/TheRealLink/pylgtv/archive/v0.1.2.zip#pylgtv==0.1.2
  https://github.com/TheRealLink/pythinkingcleaner/archive/v0.0.2.zip#pythinkingcleaner==0.0.2
  
  # homeassistant.components.alarm_control_panel.alarmdotcom

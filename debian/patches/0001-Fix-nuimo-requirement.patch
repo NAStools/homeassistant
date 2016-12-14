@@ -7,15 +7,15 @@ Subject: Fix nuimo requirement
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/requirements_all.txt b/requirements_all.txt
-index ea45016..bc02bbf 100644
+index 93ba123..8035879 100644
 --- a/requirements_all.txt
 +++ b/requirements_all.txt
-@@ -10,7 +10,7 @@ aiohttp==1.0.5
- async_timeout==1.0.0
+@@ -10,7 +10,7 @@ aiohttp==1.1.6
+ async_timeout==1.1.0
  
  # homeassistant.components.nuimo_controller
----only-binary=all git+https://github.com/getSenic/nuimo-linux-python#nuimo==1.0.0
-+git+https://github.com/getSenic/nuimo-linux-python#nuimo==1.0.0 --only-binary=all
+---only-binary=all http://github.com/getSenic/nuimo-linux-python/archive/29fc42987f74d8090d0e2382e8f248ff5990b8c9.zip#nuimo==1.0.0
++http://github.com/getSenic/nuimo-linux-python/archive/29fc42987f74d8090d0e2382e8f248ff5990b8c9.zip#nuimo==1.0.0 --only-binary=all
  
  # homeassistant.components.isy994
  PyISY==1.0.7
